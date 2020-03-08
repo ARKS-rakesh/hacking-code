@@ -1,0 +1,13 @@
+Set x=WScript.CreateObject("WScript.Shell")
+
+for i = 1 to 5
+
+x.Run"cmd.exe",9
+
+wscript.sleep 500
+
+x.SendKeys"Subscribe ARKS INDUSTRY "
+
+next
+
+
